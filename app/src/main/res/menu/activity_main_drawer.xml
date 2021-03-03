@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hire"
+            android:icon="@drawable/hire"
+            android:title="hire"
+            android:iconTint="@android:color/holo_purple"/>
+
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/cate"
+            android:title="category"
+            android:iconTint="@android:color/holo_purple"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logoff"
+            android:title="logout"
+            android:iconTint="@android:color/holo_purple"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:iconTint="@android:color/holo_purple"
+            android:title="Settings" />
+
+    </group>
+</menu>

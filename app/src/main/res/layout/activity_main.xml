@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/black"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/onlineShopping"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/skyline" />
+
+        <TextView
+            android:id="@+id/appSlogan"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center"
+            android:text="𝒟𝒾𝓈𝒸𝑜𝓋𝑒𝓇 ,𝒞𝒽𝑜𝑜𝒶𝓈𝑒 𝒶𝓃𝒹 𝑅𝑒𝓃𝓉"
+            android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/loginbtnMain"
+            android:layout_width="280dp"
+            android:layout_height="81dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/colorEdgeEffect"
+            android:gravity="center"
+            android:text="already have an account? Log in"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            tools:targetApi="lollipop" />
+
+        <Button
+            android:id="@+id/join"
+            android:layout_width="280dp"
+            android:layout_height="81dp"
+            android:layout_above="@+id/loginbtnMain"
+            android:layout_marginStart="78dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginRight="15dp"
+
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/input_design"
+            android:gravity="center"
+            android:text="join"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+
+
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+

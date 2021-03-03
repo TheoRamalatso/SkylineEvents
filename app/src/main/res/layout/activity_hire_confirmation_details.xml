@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HireConfirmationDetails">
+    <ImageView
+        android:id="@+id/loginBox"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="140dp"
+        android:src="@drawable/skyline"></ImageView>
+    <TextView
+        android:id="@+id/appSlogan"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="𝒟𝒾𝓈𝒸𝑜𝓋𝑒𝓇 ,𝒞𝒽𝑜𝑜𝒶𝓈𝑒 𝒶𝓃𝒹 𝑅𝑒𝓃𝓉"
+        android:textColor="#101010"
+        android:textColorHint="#101010"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="𝐅𝐢𝐥𝐥 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐃𝐞𝐥𝐢𝐯𝐞𝐫𝐲 𝐃𝐞𝐭𝐚𝐢𝐥𝐬"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_margin="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+    />
+
+    <EditText
+
+        android:id="@+id/DeliveryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Name"
+        />
+    <EditText
+        android:id="@+id/ContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/DeliveryName"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:hint="Contact Number"
+        />
+
+    <EditText
+        android:id="@+id/DeliveryAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/Suburb"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Delivery Address"
+        />
+
+    <EditText
+        android:id="@+id/Suburb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ContactNumber"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Suburb Name"
+        />
+
+
+    <Button
+        android:id="@+id/confirm_final_order_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Confirm"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminField">
+ <TextView
+     android:id="@+id/sloganCategory"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="30dp"
+     android:text="Add product :"
+     android:layout_marginLeft="170dp"
+     android:textColor="@android:color/background_dark"
+     android:textSize="30sp"
+     android:textStyle="bold"
+     />
+    <LinearLayout
+        android:id="@+id/linearCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sloganCategory"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/marquees"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/tent" />
+
+        <ImageView
+            android:id="@+id/glasses"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/alcohol" />
+
+        <ImageView
+            android:id="@+id/flowers"
+            android:layout_width="60dp"
+            android:layout_height="66dp"
+            android:src="@drawable/floor" />
+
+        <ImageView
+            android:id="@+id/furniture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/closet" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearCategory2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sloganCategory"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="150dp">
+
+        <ImageView
+            android:id="@+id/flooring"
+            android:tooltipText="flooor"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/floor" />
+
+        <ImageView
+            android:id="@+id/crockey"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/plates" />
+
+        <ImageView
+            android:id="@+id/cutlery"
+            android:layout_width="60dp"
+            android:layout_height="66dp"
+            android:src="@drawable/cutlery" />
+
+        <ImageView
+            android:id="@+id/decor"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/wedding" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearCategory3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sloganCategory"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        >
+
+        <ImageView
+            android:id="@+id/drapping"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/drip" />
+
+        <ImageView
+            android:id="@+id/heatingequipment"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/food" />
+
+        <ImageView
+            android:id="@+id/linen"
+            android:layout_width="60dp"
+            android:layout_height="66dp"
+            android:src="@drawable/blanket" />
+
+        <ImageView
+            android:id="@+id/outdoorfurniture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/living" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/maintain"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/checkHire"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Maintain Equipments"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/checkHire"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check New Hire"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>
